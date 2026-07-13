@@ -1,10 +1,11 @@
+import { ReactNode } from "react";
 import { KeyboardAvoidingView, Platform, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { cn } from "@/core/utils/cn";
 
 type ScreenProps = {
-	children: React.ReactNode;
+	children: ReactNode;
 	scroll?: boolean;
 	keyboard?: boolean;
 	padded?: boolean;
