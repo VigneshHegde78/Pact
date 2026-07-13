@@ -1,10 +1,11 @@
+import { Screen } from "@/components/layout/Screen";
 import "@/globals.css";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
 
 export default function Index() {
 	return (
-		<View>
+		<Screen>
 			<Text>index</Text>
-		</View>
+		</Screen>
 	);
 }
