@@ -38,7 +38,7 @@ const Button = ({
 				<ActivityIndicator color="white" />
 			) : (
 				<>
-					{leftIcon}{" "}
+					{leftIcon}
 					<PactText
 						className={cn(
 							"mx-2 font-semibold",
@@ -48,7 +48,7 @@ const Button = ({
 						)}
 					>
 						{title}
-					</PactText>{" "}
+					</PactText>
 					{rightIcon}
 				</>
 			)}
